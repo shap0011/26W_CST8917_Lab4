@@ -11,15 +11,15 @@
 
 Submit a **GitHub repository URL** containing:
 
-| Item / Link                     | Description                                                   |
-| ------------------------------- | ------------------------------------------------------------- |
-| [function_app.py]()             | The Azure Functions code (provided — should be in your repo)  |
-| [requirements.txt]()            | Python dependencies                                           |
-| [test-function.http]()          | REST Client test requests                                     |
-| [client.html]()                 | PhotoPipe web app                                             |
-| [local.settings.example.json]() | Settings template with placeholder values (NOT the real keys) |
-| [README.md](./README.md)        | Brief setup instructions for your project                     |
-| **[Demo Video Link]()**         | YouTube link (in your README or submitted separately)         |
+| Item / Link                                | Description                                                   |
+| ------------------------------------------ | ------------------------------------------------------------- |
+| [function_app.py](./function_app.py)       | The Azure Functions code (provided — should be in your repo)  |
+| [requirements.txt]()                       | Python dependencies                                           |
+| [test-function.http](./test-function.http) | REST Client test requests                                     |
+| [client.html](./client.html)               | PhotoPipe web app                                             |
+| [local.settings.example.json]()            | Settings template with placeholder values (NOT the real keys) |
+| [README.md](./README.md)                   | Brief setup instructions for your project                     |
+| **[Demo Video Link]()**                    | YouTube link (in your README or submitted separately)         |
 
 > **Security Reminder:** Do NOT commit `local.settings.json`, SAS tokens, or storage account keys. Create a `local.settings.example.json` with placeholder values.
 
@@ -37,16 +37,6 @@ Record a demonstration (maximum 5 minutes) showing:
 | 6   | Show the **Audit Log** tab with entries for all three uploads                                                            |
 | 7   | Show Event Grid **Metrics** in the portal — published events, matched events, and delivery succeeded                     |
 | 8   | Show the `image-results` container in the portal with the metadata JSON files                                            |
-
-| Requirement  | Details                    |
-| ------------ | -------------------------- |
-| **Duration** | Maximum 5 minutes          |
-| **Audio**    | Not required               |
-| **Platform** | YouTube (unlisted is fine) |
-
-### Submission Format
-
-Submit only your **GitHub repository URL** to Brightspace.
 
 ---
 
@@ -162,6 +152,10 @@ If you don't already have a resource group for this course, create one:
 
 4. Click **Review + create** -> **Create**
 5. Wait for deployment, then click **Go to resource**
+
+![Storage account in Azure Portal](./screenshots/01-storage-account-in-azure-portal.png)
+
+_Figure 01: Storage account in Azure Portal_
 
 ### Step 1.3: Enable Blob Anonymous Access (Account Level)
 
