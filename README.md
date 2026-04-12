@@ -153,9 +153,9 @@ If you don't already have a resource group for this course, create one:
 4. Click **Review + create** -> **Create**
 5. Wait for deployment, then click **Go to resource**
 
-![Storage account in Azure Portal](./screenshots/01-storage-account-in-azure-portal.png)
+![Storage Account Overview Page](./screenshots/01-storage-account-overview-page.png)
 
-_Figure 01: Storage account in Azure Portal_
+_Figure 01: Storage Account Overview Page_
 
 ### Step 1.3: Enable Blob Anonymous Access (Account Level)
 
