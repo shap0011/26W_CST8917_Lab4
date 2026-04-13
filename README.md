@@ -530,6 +530,10 @@ _Figure 17: Audit Log Subscription Created_
    - `audit-log-sub` — with subject prefix filter only
 2. Both should show status **Active**
 
+![Subscriptions Verification](./screenshots/18-event-grid-system-topic-two-subscriptions.png)
+
+_Figure 18: Subscriptions Verification_
+
 ---
 
 ## Part 4: Set Up the Web Client
