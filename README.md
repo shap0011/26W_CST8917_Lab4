@@ -519,6 +519,10 @@ This subscription routes all blob events to the `audit-log` function with no fil
 
 6. Click **Create**
 
+![Audit Log Subscription Created](./screenshots/17-subscription-audit-log.png)
+
+_Figure 17: Audit Log Subscription Created_
+
 ### Step 3.4: Verify the Subscriptions
 
 1. In your system topic, you should see two subscriptions listed:
