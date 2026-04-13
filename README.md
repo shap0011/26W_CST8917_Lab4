@@ -333,7 +333,7 @@ python -m pip install -r requirements.txt
 
 ![Install Dependencies](./screenshots/10-install-dependencies.png)
 
-_Figure 10: GitHub repo_
+_Figure 10: Install Dependencies_
 
 ### Step 2.5: Test the HTTP Functions Locally
 
@@ -343,9 +343,9 @@ _Figure 10: GitHub repo_
 
 > **Note:** You cannot test Event Grid-triggered functions locally with a simple HTTP request. The `process-image` and `audit-log` functions will be tested end-to-end after deploying and configuring Event Grid in Part 3.
 
-![Install Dependencies](./screenshots/11-function-app-started-successfully.png)
+![Function App Started Successfully](./screenshots/11-function-app-started-successfully.png)
 
-_Figure 11: Install Dependencies_
+_Figure 11: Function App Started Successfully_
 
 ### Step 2.6: Deploy the Function App to Azure
 
@@ -382,6 +382,10 @@ The deployed function needs access to your storage account. Add the connection s
 
 > **Important:** This is the connection string for the storage account with the blob containers (`yournamephotopipe`), not the function app's internal storage account.
 
+![Environment Variables](./screenshots/12-environment-variables.png)
+
+_Figure 12: Environment Variables_
+
 ### Step 2.8: Configure CORS for the Function App
 
 The web client runs locally in a browser (e.g., `http://localhost:5500` via Live Server) and calls the Function App's HTTP endpoints. By default, the Function App blocks cross-origin requests. You must add your local origin to the CORS allowed list.
@@ -392,6 +396,10 @@ The web client runs locally in a browser (e.g., `http://localhost:5500` via Live
 4. Click **Save**
 
 > **Why `*`?** For this lab, allowing all origins is the simplest approach. In production, you would restrict this to your application's domain only.
+
+![Configure CORS](./screenshots/13-configure-CORS.png)
+
+_Figure 13: Configure CORS_
 
 ### Step 2.9: Verify the Deployment
 
@@ -404,6 +412,12 @@ https://yourname-photopipe-func.azurewebsites.net/api/health
 You should see: `{"status": "healthy", "service": "PhotoPipe Function App"}`
 
 > **Copy your Function App URL** — you'll need it in Part 4 when configuring the web client.
+
+`https://shap0011-photopipe-func.azurewebsites.net/api/health`
+
+![Test the deployed health endpoint](./screenshots/14-test-deployed-health-endpoint.png)
+
+_Figure 13: Test the deployed health endpoint_
 
 ---
 
