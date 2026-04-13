@@ -415,9 +415,9 @@ You should see: `{"status": "healthy", "service": "PhotoPipe Function App"}`
 
 `https://shap0011-photopipe-func.azurewebsites.net/api/health`
 
-![Test the deployed health endpoint](./screenshots/14-test-deployed-health-endpoint.png)
+![Test the Deployed Health Endpoint](./screenshots/14-test-deployed-health-endpoint.png)
 
-_Figure 14: Test the deployed health endpoint_
+_Figure 14: Test the Deployed Health Endpoint_
 
 ---
 
@@ -621,6 +621,10 @@ The PhotoPipe web app is a single-file HTML page with no build step — just ope
 
 > This demonstrates Event Grid's **filtering** capability — different subscriptions on the same topic can route events to different handlers based on subject filters.
 
+![Images Processing](./screenshots/19-image-processing.png)
+
+_Figure 19: Images Processing_
+
 ### Step 5.5: Monitor in the Azure Portal
 
 1. **Event Grid System Topic** -> **Metrics**:
@@ -634,6 +638,10 @@ The PhotoPipe web app is a single-file HTML page with no build step — just ope
 3. **Function App** -> **Functions** -> select `process-image` -> **Monitor**:
    - Check **Invocations** tab to see execution logs
 
+![Images Processing Monitoring](./screenshots/20-published-events.png)
+
+_Figure 20: Images Processing Monitoring_
+
 ### Step 5.6: Verify Event Grid Delivery Latency
 
 Event Grid delivers events in **near real-time** (typically under 1 second):
@@ -642,4 +650,10 @@ Event Grid delivers events in **near real-time** (typically under 1 second):
 2. Check the audit log entry timestamp
 3. The difference should be under a few seconds — most of that is the function execution time, not Event Grid delivery
 
----
+![image-results](./screenshots/21-image-results.png)
+
+_Figure 21: image-results_
+
+![Logs Image Processing](./screenshots/22-logs-jpg-image-processed.png)
+
+## _Figure 21: Logs Image Processing_
