@@ -249,6 +249,10 @@ Copy the following files from the lab materials folder into your project:
 | `function_app.py`           | `function_app.py` (replace the generated one) | Azure Functions with image processing and audit logging |
 | `test-function.http`        | `test-function.http`                          | REST Client test requests                               |
 
+![Project Folder Structure](./screenshots/05-project-folder-structure.png)
+
+_Figure 05: Project Folder Structure_
+
 ### Step 2.3: Review the Function Code
 
 Open `function_app.py` and study how it works:
@@ -286,6 +290,10 @@ azure-storage-blob
 azure-data-tables
 ```
 
+![requirements.txt](./screenshots/06-requirements.png)
+
+_Figure 05: requirements.txt_
+
 Create or update `local.settings.json`:
 
 ```json
@@ -303,6 +311,18 @@ Create or update `local.settings.json`:
 ```
 
 Replace `<your-storage-account-connection-string>` with the connection string from Step 1.7.
+
+![local.settings.example.json](./screenshots/07-local-settings-example-json.png)
+
+_Figure 05: local.settings.example.json_
+
+![.gitignore](./screenshots/08-gitignore-security-best-practices.png)
+
+_Figure 05: .gitignore_
+
+![GitHub repo](./screenshots/09-github-repo.png)
+
+_Figure 05: GitHub repo_
 
 Install packages:
 
