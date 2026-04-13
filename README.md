@@ -656,4 +656,4 @@ _Figure 21: image-results_
 
 ![Logs Image Processing](./screenshots/22-logs-jpg-image-processed.png)
 
-## _Figure 21: Logs Image Processing_
+_Figure 21: Logs Image Processing_
