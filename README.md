@@ -487,6 +487,10 @@ This subscription routes only `.jpg` and `.png` uploads to the `process-image` f
 
 7. Click **Create**
 
+![Image Processing Subscription Created](./screenshots/16-subscription-image-processing.png)
+
+_Figure 16: Image Processing Subscription Created_
+
 ### Step 3.3: Create Subscription 2 — Audit Log (All Events)
 
 This subscription routes all blob events to the `audit-log` function with no filtering.
