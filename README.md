@@ -11,15 +11,15 @@
 
 Submit a **GitHub repository URL** containing:
 
-| Item / Link                                | Description                                                   |
-| ------------------------------------------ | ------------------------------------------------------------- |
-| [function_app.py](./function_app.py)       | The Azure Functions code (provided — should be in your repo)  |
-| [requirements.txt]()                       | Python dependencies                                           |
-| [test-function.http](./test-function.http) | REST Client test requests                                     |
-| [client.html](./client.html)               | PhotoPipe web app                                             |
-| [local.settings.example.json]()            | Settings template with placeholder values (NOT the real keys) |
-| [README.md](./README.md)                   | Brief setup instructions for your project                     |
-| **[Demo Video Link]()**                    | YouTube link (in your README or submitted separately)         |
+| Item / Link                                                                       | Description                                                   |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| [function_app.py](./PhotoPipeFunctionApp/function_app.py)                         | The Azure Functions code (provided — should be in your repo)  |
+| [requirements.txt](./PhotoPipeFunctionApp/requirements.txt)                       | Python dependencies                                           |
+| [test-function.http](./PhotoPipeFunctionApp/test-function.http)                   | REST Client test requests                                     |
+| [client.html](./client.html)                                                      | PhotoPipe web app                                             |
+| [local.settings.example.json](./PhotoPipeFunctionApp/local.settings.example.json) | Settings template with placeholder values (NOT the real keys) |
+| [README.md](./README.md)                                                          | Brief setup instructions for your project                     |
+| **[Demo Video Link]()**                                                           | YouTube link (in your README or submitted separately)         |
 
 > **Security Reminder:** Do NOT commit `local.settings.json`, SAS tokens, or storage account keys. Create a `local.settings.example.json` with placeholder values.
 
