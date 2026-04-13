@@ -167,6 +167,10 @@ By default, Azure storage accounts have **Allow Blob anonymous access** set to *
 
 > **Why is this needed?** The web client displays image previews by loading them directly from Blob Storage via their public URL. Without anonymous read access, the browser cannot fetch the images. In production, you would use SAS tokens or a CDN with authentication instead.
 
+![Blob Anonymous Access Enabled](./screenshots/02-allow-blob-anonymous-access-enabled.png)
+
+_Figure 02: Blob Anonymous Access Enabled_
+
 ### Step 1.4: Create Blob Containers
 
 1. In your storage account, click **Containers** in the left menu under **Data storage**
@@ -178,6 +182,10 @@ By default, Azure storage accounts have **Allow Blob anonymous access** set to *
 | `image-results` | Private (no anonymous access)               |
 
 > **Note:** The **Blob** access level allows anonymous read access to individual blobs but not container listing. This lets the web client display image previews. The `image-results` container stays private since only the Azure Function reads from it.
+
+![Blob Containers Created](./screenshots/03-create-containers.png)
+
+_Figure 03: Blob Containers Created_
 
 ### Step 1.5: Enable Table Storage
 
@@ -201,6 +209,10 @@ The web client needs to upload blobs directly from the browser. Configure CORS t
 3. Click **Save**
 
 > **Security Note:** In production, you would restrict `Allowed origins` to your application's domain. The wildcard is for lab convenience only.
+
+![Storage Account CORS Configuration](./screenshots/04-CORS-configuration.png)
+
+_Figure 04: Storage Account CORS Configuration_
 
 ### Step 1.7: Copy Storage Account Credentials
 
