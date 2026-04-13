@@ -292,7 +292,7 @@ azure-data-tables
 
 ![requirements.txt](./screenshots/06-requirements.png)
 
-_Figure 05: requirements.txt_
+_Figure 06: requirements.txt_
 
 Create or update `local.settings.json`:
 
@@ -314,15 +314,15 @@ Replace `<your-storage-account-connection-string>` with the connection string fr
 
 ![local.settings.example.json](./screenshots/07-local-settings-example-json.png)
 
-_Figure 05: local.settings.example.json_
+_Figure 07: local.settings.example.json_
 
 ![.gitignore](./screenshots/08-gitignore-security-best-practices.png)
 
-_Figure 05: .gitignore_
+_Figure 08: .gitignore_
 
 ![GitHub repo](./screenshots/09-github-repo.png)
 
-_Figure 05: GitHub repo_
+_Figure 09: GitHub repo_
 
 Install packages:
 
