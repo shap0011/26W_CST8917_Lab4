@@ -331,6 +331,10 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
+![Install Dependencies](./screenshots/10-install-dependencies.png)
+
+_Figure 10: GitHub repo_
+
 ### Step 2.5: Test the HTTP Functions Locally
 
 1. Start Azurite: Press `F1` -> **Azurite: Start**
@@ -338,6 +342,10 @@ python -m pip install -r requirements.txt
 3. Open `test-function.http` and test the `health`, `get-results`, and `get-audit-log` endpoints
 
 > **Note:** You cannot test Event Grid-triggered functions locally with a simple HTTP request. The `process-image` and `audit-log` functions will be tested end-to-end after deploying and configuring Event Grid in Part 3.
+
+![Install Dependencies](./screenshots/11-function-app-started-successfully.png)
+
+_Figure 11: Install Dependencies_
 
 ### Step 2.6: Deploy the Function App to Azure
 
