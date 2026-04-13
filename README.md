@@ -417,7 +417,7 @@ You should see: `{"status": "healthy", "service": "PhotoPipe Function App"}`
 
 ![Test the deployed health endpoint](./screenshots/14-test-deployed-health-endpoint.png)
 
-_Figure 13: Test the deployed health endpoint_
+_Figure 14: Test the deployed health endpoint_
 
 ---
 
@@ -444,6 +444,10 @@ A **system topic** captures events emitted by an Azure service (in this case, yo
 
 4. Click **Review + create** -> **Create**
 5. Wait for deployment, then click **Go to resource**
+
+![Event Grid System Topic Created](./screenshots/15-event-grid-system-topic-created.png)
+
+_Figure 15: Event Grid System Topic Created_
 
 ### Step 3.2: Create Subscription 1 — Image Processing (Filtered)
 
