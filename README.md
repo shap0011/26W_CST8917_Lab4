@@ -19,7 +19,7 @@ Submit a **GitHub repository URL** containing:
 | [client.html](./client.html)                                                      | PhotoPipe web app                                             |
 | [local.settings.example.json](./PhotoPipeFunctionApp/local.settings.example.json) | Settings template with placeholder values (NOT the real keys) |
 | [README.md](./README.md)                                                          | Brief setup instructions for your project                     |
-| **[Demo Video Link]()**                                                           | YouTube link (in your README or submitted separately)         |
+| **[Demo Video Link](https://youtu.be/FLlWaMnWGQ8)**                               | YouTube link (in your README or submitted separately)         |
 
 > **Security Reminder:** Do NOT commit `local.settings.json`, SAS tokens, or storage account keys. Create a `local.settings.example.json` with placeholder values.
 
